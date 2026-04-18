@@ -1,4 +1,7 @@
 - Caesar Cipher algorithm
+- Apply Caesar cipher to strings
 - Apply Caesar cipher to files
 - Input and Output files
-- CLI Arguments 
+- CLI arguments and options
+    - strings
+    - files
