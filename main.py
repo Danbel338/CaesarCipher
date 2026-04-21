@@ -3,7 +3,7 @@ import cipher
 
 def main():
     print("CAESAR CIPHER\n")
-    encrypted_string: str = cipher.ccipher("HOLA", 2)
+    encrypted_string: str = cipher.encrypt_file("README.md", 1)
     print(encrypted_string)
     return 0
 
