@@ -9,6 +9,10 @@ def encrypt(data : str, seed: int):
     return encrypted_data.decode('utf-8')
 
 
+def decrypt(data: str, seed: int):
+    return encrypt(data, -seed)
+
+
 def encrypt_file(path: str, seed) -> str:
     f = open(path)
     data = f.read()
