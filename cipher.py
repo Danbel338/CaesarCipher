@@ -4,9 +4,9 @@ def encrypt(data : str, seed: int):
     encrypted_data: bytearray = bytearray(len(byte_data))
     i: int = 0
     for ch in byte_data:
-        encrypted_data[i] = ch + seed
+        encrypted_data[i] = (ch + seed)%256
         i += 1
-    return encrypted_data.decode('utf-8')
+    return encrypted_data.decode('utf-8',errors='ignore')
 
 
 def decrypt(data: str, seed: int):
