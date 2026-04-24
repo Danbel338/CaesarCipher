@@ -1,4 +1,5 @@
 
+
 def encrypt(data : str, seed: int):
     byte_data = bytearray(data, 'utf-8')
     encrypted_data: bytearray = bytearray(len(byte_data))
