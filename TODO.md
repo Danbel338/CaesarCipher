@@ -5,4 +5,4 @@
     - X input string
     - X input file
     - X output string
-    - output file
+    - X output file

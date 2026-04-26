@@ -5,5 +5,8 @@ To decrypt a message you have to shift the characters in the oposite direction u
 
 
 This program implements a simple CLI Caesar Cipher
-You can encrypt and decrypt files or strings.
+You can encrypt and decrypt utf-8 files or strings.
 
+
+USAGE:
+`$ python3 main.py (-i file | string) [seed_file] [-e | -d] [-o file_output]`
