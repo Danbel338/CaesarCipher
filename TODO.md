@@ -1,7 +1,8 @@
 - Caesar Cipher algorithm
-- Apply Caesar cipher to strings
-- Apply Caesar cipher to files
-- Input and Output files
+    - X Apply Caesar cipher to strings
+    - X Apply Caesar cipher to files
 - CLI arguments and options
-    - strings
-    - files
+    - X input string
+    - X input file
+    - X output string
+    - X output file
